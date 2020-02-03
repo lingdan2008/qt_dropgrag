@@ -26,6 +26,9 @@ protected:
     virtual void dragLeaveEvent(QDragLeaveEvent *event) override;
 
 private:
+    bool readFile(const QString sFileName);
+
+private:
     Ui::Widget *ui;
 };
 
